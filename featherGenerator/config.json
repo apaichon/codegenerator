@@ -1,0 +1,62 @@
+{
+  "outputFolder": "/Users/apaichonp/Projects/Code/generatecode-master/featherGenerator",
+  "templates": [
+    {
+      "owner": "MySchema",
+      "schema": "public",
+      "templateFile": "/template/featherClass.js",
+      "outputFile": "/result/services",
+      "genType": "class",
+      "provider": "feather"
+    },
+    {
+      "owner": "MySchema",
+      "schema": "public",
+      "templateFile": "/template/featherModel.js",
+      "outputFile": "/result/models",
+      "genType": "model",
+      "provider": "feather"
+    }
+    ,
+    {
+      "owner": "MySchema",
+      "schema": "public",
+      "templateFile": "/template/featherService.js",
+      "outputFile": "/result/services",
+      "genType": "service",
+      "provider": "feather"
+    },
+    {
+      "owner": "MySchema",
+      "schema": "public",
+      "templateFile": "/template/featherModel.js",
+      "outputFile": "/result/models",
+      "genType": "model",
+      "provider": "feather"
+    },
+    {
+      "owner": "MySchema",
+      "schema": "public",
+      "templateFile": "/template/featherRegister.js",
+      "outputFile": "/result/configure.js",
+      "genType": "configure",
+      "provider": "feather"
+    },
+    {
+      "owner": "MySchema",
+      "schema": "public",
+      "templateFile": "/template/postgresMasterTable.sql",
+      "outputFile": "/result/createTables.sql",
+      "genType": "table",
+      "provider": "postgres"
+    },
+    {
+      "owner": "MySchema",
+      "schema": "public",
+      "templateFile": "/template/postgresSequence.sql",
+      "outputFile": "/result/createSequences.sql",
+      "genType": "sequence",
+      "provider": "postgres"
+    }
+  ]
+}
